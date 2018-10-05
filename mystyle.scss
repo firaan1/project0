@@ -1,0 +1,80 @@
+$bgcolor: #e5e5e5;
+%commons {
+    font-family: Verdana;
+    color: black;
+}
+
+body {
+  @extend %commons;
+}
+
+.header {
+  @extend %commons;
+  text-align: center;
+  padding: 15px;
+  background-color: $bgcolor;
+}
+.body {
+  overflow: auto;
+}
+.footer {
+  @extend %commons;
+  background-color: $bgcolor;
+  text-align: center;
+  padding: 8px;
+  margin-top: 7px;
+  height: 100%;
+  div {
+    float: center;
+    padding: 15px;
+  }
+}
+.menu {
+  float: left;
+  width: 20%;
+  text-align: center;
+  height: 100%;
+  a {
+    @extend %commons;
+    background-color: $bgcolor;
+    padding: 8px;
+    display: block;
+    margin-top: 7px;
+    width: 100%;
+  }
+}
+
+.main {
+  float:left;
+  width:80%;
+  padding:0 20px;
+  margin-top: 10px;
+}
+
+#homediv {
+  margin-top: 20px;
+}
+
+@media only screen and (max-width:620px) {
+  /* For mobile phones: */
+  .menu, .main, .right, img {
+    width:100%;
+  }
+}
+
+.para{
+  font-size: 15px;
+}
+
+@media only screen and (max-width:620px) {
+  /* For mobile phones: */
+  .menu, .main {
+    width:100%;
+  }
+  #img2 {
+    width: 70%;
+  }
+  #img1 {
+    height: 80%;
+  }
+}
