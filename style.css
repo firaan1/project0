@@ -1,0 +1,62 @@
+/*classes starts */
+.body{
+  font-family:Verdana;
+  color:#aaaaaa;
+}
+.header{
+  background-color:#e5e5e5;
+  padding:15px;
+  text-align:center;
+  font-family: serif;
+  color: black;
+}
+.menu {
+  float:left;
+  width:20%;
+  text-align:center;
+   height: 100%;
+}
+.menu a {
+  background-color:#e5e5e5;
+  padding:8px;
+  margin-top:7px;
+  display:block;
+  width:100%;
+  color:black;
+}
+.main {
+  float:left;
+  width:80%;
+  padding:0 20px;
+  margin-top: 10px;
+}
+h2, h3, h4, h5, li, th{
+  color: #52527a;
+
+}
+p{
+  color: #52527a;
+}
+
+/*id used for fonts to whole website*/
+#para{
+  font-size: 15px;
+}
+
+.footer{
+  background-color:#e5e5e5;
+  padding:10px;
+  margin-top:7px;
+  height: 100px;
+}
+.footer-menu{
+  float: right;
+  padding:15px;
+}
+
+@media only screen and (max-width:620px) {
+  /* For mobile phones: */
+  .menu, .main, .right, img {
+    width:100%;
+  }
+}
