@@ -7,7 +7,11 @@ $bgcolor: #e5e5e5;
 body {
   @extend %commons;
 }
-
+h1{
+  a{
+    @extend %commons;
+  }
+}
 .header {
   @extend %commons;
   text-align: center;
@@ -54,6 +58,9 @@ body {
 #homediv {
   margin-top: 20px;
 }
+#hometext {
+  text-align: center;
+}
 
 @media only screen and (max-width:620px) {
   /* For mobile phones: */
@@ -77,4 +84,8 @@ body {
   #img1 {
     height: 80%;
   }
+}
+.scrolltable {
+  overflow:auto;
+  max-height:350px;
 }

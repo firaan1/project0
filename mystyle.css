@@ -1,4 +1,4 @@
-.menu a, .footer, .header, body {
+.menu a, .footer, .header, h1 a, body {
   font-family: Verdana;
   color: black;
 }
@@ -50,6 +50,10 @@
   margin-top: 20px;
 }
 
+#hometext {
+  text-align: center;
+}
+
 @media only screen and (max-width: 620px) {
   /* For mobile phones: */
   .menu, .main, .right, img {
@@ -73,6 +77,10 @@
   #img1 {
     height: 80%;
   }
+}
+.scrolltable {
+  overflow: auto;
+  max-height: 350px;
 }
 
 /*# sourceMappingURL=mystyle.css.map */
